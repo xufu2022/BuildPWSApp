@@ -14,3 +14,13 @@ Get-Command -Module Pester
 Invoke-Pester -Path $PSScriptRoot
 
 install-module PSScriptAnalyzer -Scope CurrentUser -Force
+
+## Powershell Docker Env
+
+for example , choose 7.2-ubuntu-focal
+
+docker pull mcr.microsoft.com/powershell:7.2-ubuntu-focal
+
+docker ps
+
+run powershell container , and execute code in docker enviroment
