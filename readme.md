@@ -12,3 +12,5 @@ Get-Command -Module Pester
 # Invoke the Pester testing engine
 
 Invoke-Pester -Path $PSScriptRoot
+
+install-module PSScriptAnalyzer -Scope CurrentUser -Force
